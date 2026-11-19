@@ -42,6 +42,8 @@ Render the result to the HTML template.
 Publish the website in Localhost.
 
 ## PROGRAM:
+'''
+math.html
 <html>
     <head>
         <title>Samplepage</title>
@@ -92,15 +94,18 @@ from mathapp import views
 
 urlpatterns = [
     path('', views.churn_rate, name='churn_rate'),
-]
+]    
+'''
+
+    
 
 
 ## OUTPUT - SERVER SIDE:
-![alt text](<Screenshot 2026-11-14 105114.png>)
+![alt text](<Screenshot 2026-11-14 105114-1.png>)
 
 
 ## OUTPUT - WEBPAGE:
-![alt text](<Screenshot 2026-11-14 105207.png>)
+![alt text](<Screenshot (26).png>)
 
 ## RESULT:
 The the web page to calculate Churn Rate using server-side scripts is created successfully.
