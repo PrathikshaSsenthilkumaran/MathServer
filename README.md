@@ -42,7 +42,8 @@ Render the result to the HTML template.
 Publish the website in Localhost.
 
 ## PROGRAM:
-'''
+math.html
+```
 math.html
 <html>
     <head>
@@ -70,6 +71,7 @@ math.html
     </body>
 </html>
 views.py
+```
 from django.shortcuts import render
 
 def churn_rate(request):
@@ -88,6 +90,7 @@ def churn_rate(request):
         {'l': l, 'i': i, 'churnrate': churnrate}
     )
 urls.py
+```
 from django.contrib import admin
 from django.urls import path
 from mathapp import views
@@ -95,7 +98,8 @@ from mathapp import views
 urlpatterns = [
     path('', views.churn_rate, name='churn_rate'),
 ]    
-'''
+```
+
 
     
 
