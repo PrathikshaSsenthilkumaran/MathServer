@@ -1,0 +1,161 @@
+
+
+<html>
+<head>
+    <title>My Time Table</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            text-align: center;
+        }
+
+        h1 {
+            color: darkblue;
+        }
+
+        h3 {
+            color: black;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: 20px auto;
+            width: 75%;
+        }
+
+        th, td {
+            border: 2px solid gray;
+            padding: 12px;
+            text-align: center;
+        }
+
+        /* Day and Time headings */
+        .heading {
+            background-color: white;
+            color: black;
+            font-weight: bold;
+        }
+
+        /* Timetable slots */
+        .slot {
+            background-color: yellow;
+            color: black;
+        }
+
+        /* Lunch slot */
+        .lunch {
+            background-color: yellow;
+            font-weight: bold;
+        }
+
+        /* Subject details */
+        .subjects th {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>SAVEETHA ENGINEERING COLLEGE</h1>
+
+    <h3>MY TIME TABLE - PRATHIKSHA(26002593)</h3>
+
+    <table>
+        <tr>
+            <th class="heading">Day/Time</th>
+            <th class="heading">Monday</th>
+            <th class="heading">Tuesday</th>
+            <th class="heading">Wednesday</th>
+            <th class="heading">Thursday</th>
+            <th class="heading">Friday</th>
+        </tr>
+
+        <tr>
+            <th class="heading">8-10</th>
+            <td class="slot" colspan="3">FREE SLOT</td>
+            <td class="slot">CHE</td>
+            <td class="slot">PHY</td>
+        </tr>
+
+        <tr>
+            <th class="heading">10-12</th>
+            <td class="slot">JAP</td>
+            <td class="slot">FREE SLOT</td>
+            <td class="slot">FWAD</td>
+            <td class="slot">CHE</td>
+            <td class="slot">PHY</td>
+        </tr>
+
+        <tr>
+            <th class="heading">12-1</th>
+            <td class="lunch" colspan="5">L U N C H</td>
+        </tr>
+
+        <tr>
+            <th class="heading">1-3</th>
+            <td class="slot" colspan="2">FREE SLOT</td>
+            <td class="slot">MAT</td>
+            <td class="slot">CD</td>
+            <td class="slot">CD</td>
+        </tr>
+
+        <tr>
+            <th class="heading">3-5</th>
+            <td class="slot" colspan="2">FREE SLOT</td>
+            <td class="slot">JAP</td>
+            <td class="slot">CHE</td>
+            <td class="slot">FWAD</td>
+        </tr>
+    </table>
+
+    <h3>SUBJECT DETAILS</h3>
+
+    <table class="subjects">
+        <tr>
+            <th>S.No.</th>
+            <th>Subject Code</th>
+            <th>Subject Name</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>19AI414</td>
+            <td>Fundamentals of Web Application Development (FWAD)</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>19EN612</td>
+            <td>japanese (JAP)</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>19PH206</td>
+            <td>Physics for Information Technology (PHY)</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>19CY205</td>
+            <td>Principles of Chemistry in Engineering (CHE)</td>
+        </tr>
+
+        <tr>
+            <td>5</td>
+            <td>19MA201</td>
+            <td>Calculus and Matrix Algebra (MAT)</td>
+        </tr>
+
+        <tr>
+            <td>6</td>
+            <td>19EY701</td>
+            <td>CAREER Development(CD)</td>
+        </tr>
+    </table>
+
+</body>
+</html>

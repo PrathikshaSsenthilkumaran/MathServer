@@ -70,6 +70,7 @@ math.html
         </form>
     </body>
 </html>
+```
 views.py
 ```
 from django.shortcuts import render
@@ -89,6 +90,7 @@ def churn_rate(request):
         'mathapp/churnRate.html',
         {'l': l, 'i': i, 'churnrate': churnrate}
     )
+```
 urls.py
 ```
 from django.contrib import admin
